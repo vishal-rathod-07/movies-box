@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+Cinematic Joy: A React-Powered Movie Explorer
+=============================================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A movie discovery app that fetches popular movies from [The Movie Database (TMDB) API](https://www.themoviedb.org/documentation/api) and lets users filter the results internally.
 
-## Available Scripts
+Getting Started
+---------------
 
-In the project directory, you can run:
+Cinematic Joy lets movie lovers explore popular films in a stylish and intuitive interface. With the help of TMDB API, it displays a list of the current popular movies with all the relevant information and provides a convenient internal filtering mechanism to help users find their desired movies faster.
 
-### `npm start`
+Prerequisites
+-------------
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To run the project locally, you will need to have [Node.js](https://nodejs.org/en/download/) installed on your computer.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Installation
+------------
 
-### `npm test`
+Clone or download the repository and install the required dependencies by running the following command in the terminal:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm install`
 
-### `npm run build`
+Usage
+-----
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Once the installation is completed, run the following command to start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`npm start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app will be running on `http://localhost:3000/`.
 
-### `npm run eject`
+Features
+--------
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+*   Fetch popular movies from TMDB API
+*   Display movie information such as title, release date, rating, overview, and poster
+*   Internal filtering mechanism to easily find desired movies
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributing
+------------
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+If you'd like to contribute to this project, feel free to submit a pull request.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+License
+-------
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
