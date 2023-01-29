@@ -1,4 +1,4 @@
-Cinematic Joy: A React-Powered Movie Explorer
+Movies Box: A React-Powered Movie Explorer
 =============================================
 
 A movie discovery app that fetches popular movies from [The Movie Database (TMDB) API](https://www.themoviedb.org/documentation/api) and lets users filter the results internally.
